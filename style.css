@@ -1,0 +1,82 @@
+body{
+  background-color: #dbeffe;
+}
+.outer-div{
+ display:flex;
+  border-style: hidden;
+  margin:25vh auto;
+  border-width:1px;
+  border-color: red;
+ background-color: #fff;
+  width: 275px;
+  height:400px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border-radius:15px;
+ 
+  
+}
+#logo{
+  
+  text-align: center;
+  padding-top: 10px;
+ 
+}
+.details{
+  display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin: 0px 15px;
+    outline: none;
+    border-bottom: 3px;
+    font-weight: bold;
+}
+.details input{
+  outline:none;
+  width: 100%;
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: solid;
+  border-left-style: none;
+  margin-bottom: 0.4rem;
+  
+}
+#submit{
+  text-align: center;
+ 
+}
+#submitBtn{
+  
+  color:white;
+  border:1px solid rgb(174, 168, 168);
+  border-radius: 1px;
+  margin-bottom: 3px;
+  padding:3px 0;
+  border-radius: 3px;
+ background-color:red ;
+ border-radius: 20px;
+ width: 90%;
+ margin: 0px 15px;
+ padding:10px 5px;
+ 
+}
+#submitBtn:hover{
+  cursor: pointer;
+  background-color: yellow;
+  color:black;
+}
+.bottom{
+  margin: 30px 20px;
+}
+.bottom a{
+  text-decoration: none;
+  font-size: small;
+  font-weight: 100;
+  color:grey;
+  width: 90%;
+
+}
+
+
+
